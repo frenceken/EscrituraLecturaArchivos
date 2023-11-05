@@ -7,10 +7,10 @@ from PIL import Image  # se usa para abrir y trabajar imagenes
 
 #---------------------------------------------------ARCHIVOS .csv-------------------------------------------------------------
 escritura_datos_csv = [["\nNombre, Apellido, edad, Email"],
-                           ["Ronald", "Frenzel", 42, "email@gmail.com"],
-                           ["Joseline", "Sequera", 40, "email@yahoo.com"]]
+                           ["Ronal", "Frezel", 42, "email@gmail.com"],
+                           ["Joselin", "Seqera", 40, "email@yahoo.com"]]
     
-escritura_pandas = {"Nombres": ["Ronald", "Joseline", "Leonardo", "Giselle"],  
+escritura_pandas = {"Nombres": ["Ronal", "Joselin", "Leo", "Gisel"],  
                         "Edad": [42, 40, 13, 3],
                         }  # esta estructura de datos es IMPORTANTE que tengan la misma longitud (misma cantidad de elementos)
 
